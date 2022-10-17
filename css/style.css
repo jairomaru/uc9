@@ -1,0 +1,109 @@
+
+@font-face {
+  font-family: "TitilliumWb-Regular";
+   src: url(../images/TitilliumWeb-Regular.ttf);
+}
+/*css reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box  
+
+}
+
+.container-gid {
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid salmon;
+} 
+
+
+header{
+  padding: 20px;
+
+  background-color: black;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+
+}
+header .logo{
+  border: 2px solid white;
+
+}
+/*navvbar*/
+header .menu{
+  display: flex;
+  width: 60%;
+  max-width: 680px;
+  justify-content: space-between;
+  /*border:2px solid red;*/
+
+}
+/*links dentro do menu teram cor branca*/
+header .menu a{ 
+  color:white;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+/************ Produtos****** */
+/* section produtos */
+.produtos{
+  width: 100%;
+  height: 600px;
+  background-color: brown;
+  background-image: url(../images/banner_pilotos.png);
+  background-repeat: no-repeat;
+}
+
+.banner-flex{
+  height: 600px;
+}
+
+.produtos .banner-flex{
+  height: 600px;
+  display: flex;
+  justify-content: flex-end;
+  height: 600px;
+}
+.produtos .banner-info{
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+   flex-direction: column;
+  width: 350px;
+  height: 270px;
+  color: white ;
+  border: 1px solid white;
+}
+.produtos .banner-info h1{
+  font-family: "TitilliumWeb-Regular";
+  font-size: 42px;
+}
+
+.produtos .banner-info p{
+  font-family: "TitilliumWeb-Thin"
+  ;
+  }
+
+  .produtos .banner-info a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 52px;
+    background-color: #C31616;
+    border-radius: 18px;
+    border: 1px solid #C31616 ;
+    font-family: "TitilliumWeb-Thin";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+  }
+  

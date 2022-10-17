@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+  *{ 
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+
+  }
+
+
+  .container{
+    display: flex;
+    width: 700px;
+    justify-content: flex-start;
+    margin:20px auto;
+    flex-direction: row;
+    flex-wrap: wrap; /* permite a quebra */
+    justify-content: space-between;
+    border: 1px  solid green ;
+  }
+  .paragrafos {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    
+    width: 100px;
+    height:100px;
+    background-color: salmon;
+    border: 1px purple solid;
+  }
+  #p-um{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+  }
+ .menu {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+ }
+ 
+</style>
+</html>
+</head>
+
+<body>
+  <nav class="menu">
+    <a href="" class="menu-item">Item 1</a>
+    <a href="menu-item" class="menu-item"></a> Item 2</a>
+    <a href="" class="menu-item">Item 3</a>
+ </nav>
+
+  <div class="container">
+  
+  <p class="paragrafos" id="p-um">
+    paragrafo 1
+  </p>
+  
+  
+   <p class="paragrafos"> paragrafo 1 </p>
+   <p class=" paragrafos"> paragrafo 3</p>
+   <p class="paragrafos"> paragrafo 2 </p>
+   <p class=" paragrafos"> paragrafo 3</p>
+   <p class="paragrafos"> paragrafo 2 </p>
+   <p class=" paragrafos"> paragrafo 3</p>
+   
+   <p class=" paragrafos"> paragrafo 3</p>
+   <p class="paragrafos"> paragrafo 2 </p>
+   <p class=" paragrafos"> paragrafo 3</p>
+   <p class="paragrafos"> paragrafo 2 </p>
+   <p class=" paragrafos"> paragrafo 3</p>
+   
+  
+</div>
+</body>
+</html>
